@@ -12,23 +12,14 @@ header {
 }
 
 
-nav {
 
-    display: flex;
-    flex-direction: row;
-    background-color: gray;
-}
 
-nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-}
 
 .row {
 
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
     
 }
 
@@ -61,6 +52,7 @@ section {
 
 
 footer {
+    margin-top: 20px;
     padding: 20px;
     background-color: black;
     color: white;
