@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    padding: 50px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.row {
+
+    display: flex;
+    display: wrap;
+    
+}
+
+
+aside {
+    padding: 20px;
+    flex: 10%;
+    background-color: red;
+    height: 400px;
+}
+
+section {
+    padding: 20px;
+    flex: 80%;
+    background-color: yellow;
+}
+
+.aside2 {
+
+    padding: 20px;
+    flex: 10%;
+    background-color: green;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+
+
